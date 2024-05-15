@@ -11,12 +11,12 @@ class VendingMachine:
     def __init__(self):
         self.balance = 0
         self.items = [
-            {'code': 0, 'name': 'Salad chips', 'price': 1.50, 'quantity': 5},
-            {'code': 1, 'name': 'Chocolate bar', 'price': 3.00, 'quantity': 10},
-            {'code': 2, 'name': 'Coke', 'price': 2.50, 'quantity': 7},
+            {'code': 0, 'name': 'Salad chips', 'price': 1.50, 'quantity': 6},
+            {'code': 1, 'name': 'Chocolate bar', 'price': 3.00, 'quantity': 9},
+            {'code': 2, 'name': 'Coke', 'price': 3.50, 'quantity': 7},
             {'code': 3, 'name': 'Iced tea', 'price': 4.00, 'quantity': 3},
-            {'code': 4, 'name': 'Masafi water', 'price': 1.00, 'quantity': 8},
-            {'code': 5, 'name': 'Pringles', 'price': 4.00, 'quantity': 6},
+            {'code': 4, 'name': 'Masafi water', 'price': 1.00, 'quantity':10},
+            {'code': 5, 'name': 'Pringles', 'price': 4.50, 'quantity': 16},
             {'code': 6, 'name': 'Candy', 'price': 0.50, 'quantity': 15}
         ]
 
